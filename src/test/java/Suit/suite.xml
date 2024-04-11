@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="projectV" parallel="none">
+    <test name="login_Incorrect_Pass" preserve-order="true">
+        <parameter name="dataFile" value="login.xlsx"/>
+        <parameter name="dataSheet" value="LoginPage"/>
+            <classes>
+                <class name="Script.HomePage">
+                    <methods>
+                        <include name="loginFail"></include>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+
+</suite> <!-- Default Suite -->
