@@ -71,35 +71,5 @@ public class HomePage {
 
     }
 
-    @Test
-    public void portable(){
-//        WebDriver driver = new ChromeDriver();
-//        ChromeOptions options = WebDriver.ChromeOptio
-//        options.add_argument("--user-data-dir=GoogleChromePortable\\Data\\profile");
-//        driver = webdriver.Chrome(service=Service('pathtoChromeDriver\\chromedriver.exe'),options=options);
-//        driver.get("https://www.google.com/search?q=my+ip")
-
-//        processclass Object = new processclass();
-//        Object.getBrowserProcess();
-        String chromePath = "D:\\A\\Money\\Airdrop\\ACC40\\GoogleChromePortable.exe";
-        String chromedriverpath="D:\\A\\Money\\Airdrop\\ACC40\\chromedriver.exe";
-//        String chromedriverpath="D:\\Project\\workSpace\\E2EProject\\driver\\chromedriver-win64\\chromedriver.exe";
-//        String chromedriverpath="D:\\A\\Money\\Airdrop\\ACC40\\App\\Chrome-bin\\chrome.exe";
-
-
-//        myOptions.addArguments("--user-data-dir=D:\\A\\Money\\Airdrop\\ACC40\\Data\\profile");
-//        myOptions.setBinary(chromePath);
-//        System.setProperty("webdriver.chrome.driver",chromedriverpath);
-//        WebDriver driver = new ChromeDriver(myOptions);
-          WebDriver driver = new ChromeDriver();
-
-
-        // Maximize the browser
-        driver.manage().window().maximize();
-        // Launch Website
-        driver.get("https://www.desuicoinflip.io");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    }
 
 }
