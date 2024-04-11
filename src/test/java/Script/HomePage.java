@@ -88,9 +88,10 @@ public class HomePage {
 
 
 //        myOptions.addArguments("--user-data-dir=D:\\A\\Money\\Airdrop\\ACC40\\Data\\profile");
-        myOptions.setBinary(chromePath);
-        System.setProperty("webdriver.chrome.driver",chromedriverpath);
-        WebDriver driver = new ChromeDriver(myOptions);
+//        myOptions.setBinary(chromePath);
+//        System.setProperty("webdriver.chrome.driver",chromedriverpath);
+//        WebDriver driver = new ChromeDriver(myOptions);
+          WebDriver driver = new ChromeDriver();
 
 
         // Maximize the browser
