@@ -126,6 +126,6 @@ public class DataDriven {
         }
         System.out.println("Name: "+testData.get("Name").toString());
         System.out.println("Mode: "+testData.get("Mode").toString());
-        System.out.println("Descroption: "+testData.get("Description").toString());
+        System.out.println("Description: "+testData.get("Description").toString());
     }
 }
