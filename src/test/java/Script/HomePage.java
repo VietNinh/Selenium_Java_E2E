@@ -64,7 +64,7 @@ public class HomePage {
 //        JavascriptExecutor js = (JavascriptExecutor) driver;
 //        js.executeScript("document.querySelector('#main > div > div:nth-child(4) > div > div > shopee-banner-popup-stateful').shadowRoot.querySelector('div > div > div > div > div').click()");
 //        js.executeScript("document.querySelector('#app > div > div:nth-child(1) > div > div.shopee-floating-icon > div').click()");
-       String a = "change to remote";
+       String a = "change to remote new";
 //        System.out.println(a.toString());
 
 
